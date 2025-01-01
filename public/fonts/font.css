@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/fonts/integral-cf/integralcf.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url('/fonts/sporting-grotesque/Sporting_Grotesque.woff2') format('woff2'),
+         url('/fonts/sporting-grotesque/Sporting_Grotesque.otf') format('opentype'),
+         url('/fonts/sporting-grotesque/Sporting_Grotesque.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Brick';
+    src: url('/fonts/Brick/Brick.otf') format('opentype'),
+         url('/fonts/Brick/Brick.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+.integral-cf {
+    font-family: 'Integral CF', sans-serif;
+}
+  
+.sporting-grotesque {
+    font-family: 'Sporting Grotesque', sans-serif;
+}
+  
+.bricks {
+    font-family: 'Brick', sans-serif;
+}
+  

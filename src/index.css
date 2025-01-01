@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    /* font-family: "Roboto Mono", monospace; */
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body{
+
+    /* background-color: #000017; */
+    background-color: white;
+}
+
+.fira-code-heading{
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.card {
+  @apply transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-opacity-80 p-4 rounded-lg;
+}
+

@@ -11,8 +11,8 @@ const NotFoundPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-      <FontAwesomeIcon icon={faSadTear} size="5x" className="mb-4 text-gray-300" />
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200 text-black">
+      <FontAwesomeIcon icon={faSadTear} size="5x" className="mb-6 text-black" />
       <h1 className="uppercase text-4xl font-bold mb-4">404 - Page Not Found</h1>
       <p className="text-lg mb-6">Sorry, the page you are looking for does not exist.</p>
       <button

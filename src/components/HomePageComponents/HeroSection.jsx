@@ -187,11 +187,11 @@ export default function HeroSection() {
       className="w-full h-full flex flex-col justify-between py-20 overflow-hidden relative"
       ref={containerRef} // Parallax effect container
     >
-      <div className="absolute top-0 left-0 w-full h-full bg-white z-[-1]">
+      <div className="fixed top-0 left-0 w-full h-full bg-white z-[-1]">
         <Squares direction="diagonal" speed={0.2} />
       </div>
 
-      <div className="flex flex-col items-center justify-center mt-12 mb-20 relative z-10">
+      <div className="flex flex-col items-center justify-center mt-12 mb-10 relative z-10">
         <img
           className="w-[200px] sm:w-[300px] md:w-[300px] lg:w-[300px] h-auto mb-6"
           // src="https://res.cloudinary.com/dlriiwcsn/image/upload/v1731254698/Coder_s_Cup_24_Logo_With_Sponsors_qyhl7g.png"

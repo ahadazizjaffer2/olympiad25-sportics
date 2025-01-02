@@ -44,7 +44,7 @@ export default function AboutCodersCup() {
     }, []);
 
     return (
-        <div className="text-[#00A8FF] bg-[#fff] pt-12 mb-28" ref={sectionRef}>
+        <div className="text-[#00A8FF] bg-[#fff] py-12 mb-28" ref={sectionRef}>
             <h1 className="integral-cf text-center text-3xl md:text-7xl font-bold py-6 px-2 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text">
                 ABOUT <span className="integral-cf text-[#00A8FF]">OLYMPIAD</span>
             </h1>

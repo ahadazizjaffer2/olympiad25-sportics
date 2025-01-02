@@ -10,7 +10,6 @@ const developers = [
 const FooterComponent = () => {
   return (
     <>
-      <hr className='mt-12' />
       <footer className="bg-[#fff] text-black">
         <div className="container mx-auto flex flex-col md:flex-row justify-around items-center w-full px-4 py-8 md:px-10 lg:px-24">
           {/* Map Column */}

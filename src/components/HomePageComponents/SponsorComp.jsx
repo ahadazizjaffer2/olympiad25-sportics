@@ -4,9 +4,9 @@ import PremiumSponsor from './PremiumSponsor.jsx';
 
 const SponsorComp = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-[100%] py-12'>
+    <div className='flex flex-col justify-center items-center w-[100%] py-12 bg-white'>
       <div className='flex flex-col justify-center items-center w-[100%] py-12'>
-        <h1 className="integral-cf text-center text-3xl md:text-7xl font-bold py-6 px-2 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text">
+        <h1 className="integral-cf text-center text-5xl md:text-7xl font-bold py-6 px-2 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text">
           OUR PARTNERS
         </h1>
       </div>
@@ -15,8 +15,8 @@ const SponsorComp = () => {
 
       {/* Blockeyfi Logo with Heading */}
       <div className="blockeyfi-logo-container mb-6 mt-8 flex flex-col items-center">
-        <h2 className="fira-code text-gray-300 text-4xl mb-2">
-          <span className="uppercase font-bold text-white">Co-Sponsor</span>
+        <h2 className="fira-code text-gray-300 text-3xl mb-2">
+          <span className="uppercase font-bold text-gray-900">Co-Sponsor</span>
         </h2>
         <img 
           src="https://res.cloudinary.com/dlriiwcsn/image/upload/v1731348560/Untitled_design_5_uzzrl0.png" 
@@ -29,8 +29,8 @@ const SponsorComp = () => {
       <div className="flex flex-col sm:flex-row justify-center gap-8 mb-12">
         {/* Circliphy Logo with Heading */}
         <div className="flex flex-col items-center mb-6 sm:mb-0">
-          <h2 className="fira-code text-gray-300 text-4xl mb-4">
-            <span className="uppercase text-white font-bold">Tech Partner</span>
+          <h2 className="fira-code text-gray-300 text-3xl mb-4">
+            <span className="uppercase text-gray-900 font-bold">Tech Partner</span>
           </h2>
           <img 
             src="https://res.cloudinary.com/dlriiwcsn/image/upload/v1731348643/Circliphy_Tech_partner_qk9s4z.png" 
@@ -40,9 +40,9 @@ const SponsorComp = () => {
         </div>
 
         {/* Datacamp Logo with Heading */}
-        <div className="flex flex-col items-center mb-6 sm:mb-0">
-          <h2 className="fira-code text-gray-300 text-4xl mb-4">
-            <span className="uppercase text-white font-bold">Academic Partner</span>
+        <div className="flex flex-col items-center mb-6 sm:mb-0 text-center">
+          <h2 className="fira-code text-gray-300 text-3xl mb-4">
+            <span className="uppercase text-gray-900 font-bold">Academic Partner</span>
           </h2>
           <img 
             src="https://res.cloudinary.com/dlriiwcsn/image/upload/v1731348617/Datacamp_1_rq7xyo.png" 

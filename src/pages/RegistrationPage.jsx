@@ -6,7 +6,7 @@ import RegistrationClosedNotice from '../components/Register-Now/RegistrationClo
 const RegistrationPage = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       {/* <RegistrationForm/> */}
       <RegistrationClosedNotice/>
     </div>

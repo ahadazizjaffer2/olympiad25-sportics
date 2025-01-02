@@ -9,6 +9,7 @@ import RegistrationPage from "./pages/RegistrationPage";
 import FAQPage from "./pages/FAQPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import RulesPage from "./pages/RulesPage";
+import TeamPage from "./pages/TeamPage";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ export default function App() {
                 <Route path="/registration" element={<RegistrationPage />} />
                 <Route path="/faq" element={<FAQPage />} />
                 <Route path="/rules" element={<RulesPage />} />
+                <Route path="/team" element={<TeamPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
             </div>

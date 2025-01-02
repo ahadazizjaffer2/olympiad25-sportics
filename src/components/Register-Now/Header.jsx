@@ -4,10 +4,10 @@ export default function Header() {
 
   return (
     <div className="mt-32">
-      <div className="flex flex-col-reverse sm:flex-row items-center text-white mx-auto w-[85%]">
+      <div className="flex flex-col-reverse sm:flex-row items-center text-gray-900 mx-auto w-[85%]">
         {/* Text Section */}
         <div className="sm:w-[50%] md:w-[47%] sm:border-l-4 border-white sm:px-3 pt-6 text-center sm:text-start">
-          <p className="bg-gradient-to-r from-gray-400 to-gray-600 bg-clip-text text-transparent uppercase text-[40px] 2xl:text-[80px] font-bold mb-3 sm:mb-2 xl:mb-3 xl:text-[55px] lg:text-[40px] md:text-[28px] sm:text-[25px]">
+          <p className="integral-cf bg-gradient-to-r from-gray-400 to-gray-600 bg-clip-text text-transparent uppercase text-[40px] 2xl:text-[80px] font-bold mb-3 sm:mb-2 xl:mb-3 xl:text-[55px] lg:text-[40px] md:text-[28px] sm:text-[25px]">
             MUST WATCH
           </p>
 

@@ -5,7 +5,7 @@ const tempImage = "https://res.cloudinary.com/dm1xi8zff/image/upload/v1730217455
 const TitleSponsor = () => {
   return (
     <div className='w-[100%] uppercase font-bold flex justify-center items-center flex-col gap-y-4'>
-        <h1 className="fira-code text-white text-4xl">
+        <h1 className=" text-white text-3xl">
             <span className="text-[#10a2b5] text-center">Title Sponsor</span>
         </h1>
         <div className='flex sm:flex-row flex-col justify-center items-center sm:gap-x-8 gap-y-8 w-[50%]'>

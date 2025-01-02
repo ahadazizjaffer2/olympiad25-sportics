@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css/sea-green';
+// import { Splide, SplideSlide } from '@splidejs/react-splide';
+// import '@splidejs/react-splide/css/sea-green';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import ImageGallery from './ImageGallery';
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -67,30 +68,30 @@ const CodersCupHistory = () => {
     );
 
     // Image Slider Animation on Scroll
-    gsap.fromTo(
-      sliderRef.current.querySelectorAll('.splide__slide'),
-      { opacity: 0, scale: 0.8 },
-      {
-        opacity: 1,
-        scale: 1,
-        duration: 1,
-        stagger: 0.2, // Stagger the animation for each slide
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: sliderRef.current,
-          start: 'top 90%',
-          toggleActions: 'play none none none',
-        },
-      }
-    );
+    // gsap.fromTo(
+    //   sliderRef.current.querySelectorAll('.splide__slide'),
+    //   { opacity: 0, scale: 0.8 },
+    //   {
+    //     opacity: 1,
+    //     scale: 1,
+    //     duration: 1,
+    //     stagger: 0.2, // Stagger the animation for each slide
+    //     ease: 'power3.out',
+    //     scrollTrigger: {
+    //       trigger: sliderRef.current,
+    //       start: 'top 90%',
+    //       toggleActions: 'play none none none',
+    //     },
+    //   }
+    // );
   }, []);
 
   return (
-    <div className="bg-transparent text-gray-700 p-6">
+    <div className="bg-transparent text-gray-700 p-6 md:pb-24">
       {/* Heading */}
       <h1
         ref={headingRef}
-        className="integral-cf text-center text-3xl md:text-7xl font-bold py-6 px-2 mb-6 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text"
+        className="integral-cf text-center text-5xl md:text-7xl font-bold py-6 px-2 mb-6 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text"
       >
         <span className="integral-cf text-[#00A8FF]">OLYMPIAD</span> HISTORY
       </h1>
@@ -104,7 +105,7 @@ const CodersCupHistory = () => {
       </p>
 
       {/* Image Slider */}
-      <div ref={sliderRef} className="w-full sm:max-w-[90%] mx-auto">
+      {/* <div ref={sliderRef} className="w-full sm:max-w-[90%] mx-auto">
         <Splide
           options={{
             rewind: true,
@@ -126,7 +127,9 @@ const CodersCupHistory = () => {
             </SplideSlide>
           ))}
         </Splide>
-      </div>
+      </div> */}
+
+      <ImageGallery images={eventImages}/>
 
       <style>
         {`

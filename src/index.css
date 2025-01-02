@@ -28,3 +28,33 @@ body{
   @apply transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-opacity-80 p-4 rounded-lg;
 }
 
+/* ImageGallery.css */
+.image-gallery-image {
+  height: 300px;
+  object-fit: contain; 
+  max-height: 300px;
+}
+
+@media (min-width: 768px) {
+  .image-gallery-image {
+    height: 400px; 
+    max-height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image-gallery-image {
+    height: 600px; 
+    max-height: 600px;
+  }
+}
+
+.image-gallery-icon:hover {
+  color: #00A8FF;
+}
+.image-gallery-icon{
+  color: white;
+}
+
+
+

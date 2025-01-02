@@ -1,19 +1,8 @@
 import { motion } from "framer-motion";
+import React from "react";
+import { Hourglass } from "react-loader-spinner";
 
 const Loader = () => {
-  const variants = {
-    initial: { scaleY: 0.5, opacity: 0 },
-    animate: {
-      scaleY: 1,
-      opacity: 1,
-      transition: {
-        repeat: Infinity,
-        repeatType: "mirror",
-        duration: 1,
-        ease: "circIn",
-      },
-    },
-  };
 
   return (
     <div className="h-screen w-screen bg-black flex flex-col items-center justify-center gap-8">
@@ -23,18 +12,15 @@ const Loader = () => {
         className="h-52 w-auto"
       />
 
-      <motion.div
-        transition={{ staggerChildren: 0.25 }}
-        initial="initial"
-        animate="animate"
-        className="flex gap-2"
-      >
-        <motion.div variants={variants} className="h-12 w-2 bg-white" />
-        <motion.div variants={variants} className="h-12 w-2 bg-white" />
-        <motion.div variants={variants} className="h-12 w-2 bg-white" />
-        <motion.div variants={variants} className="h-12 w-2 bg-white" />
-        <motion.div variants={variants} className="h-12 w-2 bg-white" />
-      </motion.div>
+      <Hourglass visible={true}
+        height="100"
+        width="100"
+        ariaLabel="hourglass-loading"
+        wrapperStyle={{}}
+        wrapperClass=""
+        colors={['#00a8ff', '#ff6f00']}
+      />
+
     </div>
   );
 };

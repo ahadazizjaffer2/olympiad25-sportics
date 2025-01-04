@@ -184,7 +184,7 @@ export default function HeroSection() {
 
   return (
     <div
-      className="w-full h-full flex flex-col justify-between py-20 overflow-hidden relative"
+      className="w-full h-full flex flex-col justify-between py-20 pb-0 overflow-hidden relative"
       ref={containerRef} // Parallax effect container
     >
       <div className="fixed top-0 left-0 w-full h-full bg-white z-[-1]">

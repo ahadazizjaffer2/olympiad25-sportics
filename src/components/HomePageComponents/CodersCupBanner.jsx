@@ -33,7 +33,7 @@ const CodersCupBanner = () => {
   return (
     <div 
       ref={bannerRef} 
-      className="w-4/5 max-w-full h-full rounded-2xl border border-black text-center mx-auto m-8 p-6 bg-white"
+      className="w-4/5 max-w-full h-full rounded-2xl border border-black text-center mx-auto m-16 p-6 bg-white"
     >
       <div>
         <span className="bricks text-[#00A8FF] text-[12vw] md:text-[10vw] font-bold break-words">

@@ -65,7 +65,7 @@ export default function EventFlowComponent() {
   }, []);
 
   return (
-    <div ref={componentRef} className="overflow-hidden mt-12">
+    <div ref={componentRef} className="overflow-hidden mt-16">
       <h1
         className="integral-cf event-flow-title text-center text-3xl md:text-7xl font-bold py-6 px-2 mb-6 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text"
       >

@@ -58,3 +58,98 @@ body{
 
 
 
+ :root {
+  --menu-height: 1000px;
+}
+
+.rulescard {
+  display: flex;
+  padding: 0 20px;
+  width: 80vw;
+  height: 1000px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+.buttons {
+  padding-top: 20px;
+  width: 200px;
+  height: fit-content;
+}
+
+.buttons button {
+  margin: 0;
+  font-size: 20px;
+  width: 100%;
+  height: 36px;
+  padding: 20px;
+  background: transparent;
+  border-radius: 6px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.buttons button.active {
+  background: #00A8FF;
+  color: #f9f9f9;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 auto;
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+  height: 36px;
+}
+
+.wrapper::before {
+  top: 0;
+  background: linear-gradient(#ffffff, rgb(255 255 255 / 0%));
+}
+
+.wrapper::after {
+  bottom: 0;
+  background: linear-gradient(rgb(255 255 255 / 0%), #ffffff);
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: calc(var(----menu-height) * 3);
+  transition: 0.6s;
+}
+
+.content p {
+  display: flex;
+  align-items: center;
+  line-height: 1.6;
+  margin: 0;
+  color: #222222;
+  opacity: 0.5;
+}
+
+.rulesblock {
+  padding: 0 20px;
+  height: 1000px;
+}
+
+.rulesblock h2 {
+  padding-top: 20px;
+  margin: 0 0 6px;
+  font-weight: 500;
+} 

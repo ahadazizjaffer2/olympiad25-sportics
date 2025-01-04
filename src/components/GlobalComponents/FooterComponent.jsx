@@ -4,7 +4,9 @@ import { faPhone, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const developers = [
-  { name: "Ahad Aziz", linkedIn: "https://www.linkedin.com/in/ahadaziz/"}
+  { name: "Ahad Aziz", linkedIn: "https://www.linkedin.com/in/ahadaziz/"},
+  { name: "Owais Rafiq", linkedIn: "https://www.linkedin.com/in/owais-rafiq-639494253/"},
+  { name: "Sameer Ahmed", linkedIn: "https://www.linkedin.com/in/sameer-vers3/"},
 ];
 
 const FooterComponent = () => {
@@ -13,7 +15,7 @@ const FooterComponent = () => {
       <footer className="bg-[#fff] text-black">
         <div className="container mx-auto flex flex-col md:flex-row justify-around items-center w-full px-4 py-8 md:px-10 lg:px-24">
           {/* Map Column */}
-          <div className="flex-grow flex justify-center mb-4 md:mb-0">
+          <div className="flex-grow flex justify-center mb-8 md:mb-0">
             <div className="rounded bg-zinc-300 w-full h-56 md:w-64 md:h-56 xl:w-80 xl:h-64 flex items-center justify-center">
               <iframe
                 title="Location Map"
@@ -32,13 +34,13 @@ const FooterComponent = () => {
             <div className="mb-4">
               <h1 className="mb-2 text-lg font-bold uppercase text-[18px] md:text-[20px]">Follow Us</h1>
               <div className="flex space-x-4 mb-2 justify-center items-center">
-                <a href="https://www.linkedin.com/company/acmnuceskhi" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn">
+                {/* <a href="https://www.linkedin.com/company/acmnuceskhi" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn">
                   <FontAwesomeIcon icon={faLinkedin} className="text-zinc-900 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-                </a>
-                <a href="https://www.facebook.com/acmnuceskhi/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                </a> */}
+                <a href="https://www.facebook.com/sportics.nuceskhi/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
                   <FontAwesomeIcon icon={faFacebook} className="text-zinc-900 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
                 </a>
-                <a href="https://www.instagram.com/acmnuceskhi/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                <a href="https://www.instagram.com/sportics_nuces_khi/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
                   <FontAwesomeIcon icon={faInstagram} className="text-zinc-900 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
                 </a>
               </div>
@@ -47,7 +49,7 @@ const FooterComponent = () => {
             <div className="flex flex-col justify-center items-center gap-y-1">
               <h1 className="mb-2 text-lg font-bold uppercase text-[18px] md:text-[20px]">Contact Us</h1>
               <p className="flex items-center text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-normal">
-                <a href="https://wa.me/+923128971349" className="flex items-center text-gray-900" aria-label="Call us at (+92) 322-2883752">
+                <a href="https://wa.me/+923128971349" className="flex items-center text-gray-900 mb-4" aria-label="Call us at (+92) 322-2883752">
                   <FontAwesomeIcon icon={faPhone} className="mr-2" /> (+92) 312-8971349
                 </a>
               </p>
@@ -64,7 +66,7 @@ const FooterComponent = () => {
           <h1 className="mb-2 text-lg font-bold uppercase text-[18px] md:text-[20px]">About the Developers</h1>
           <div className="flex flex-col justify-center items-center">
             {developers.map((dev, index) => (
-              <div key={index} className="mb-2"> {/* Add margin for spacing */}
+              <div key={index} className="mb-1"> {/* Add margin for spacing */}
                 <a
                   href={dev.linkedIn}
                   target="_blank"
@@ -79,7 +81,7 @@ const FooterComponent = () => {
           </div>
 
 
-            <h1 className="mb-2 text-lg font-bold uppercase text-[18px] md:text-[20px]">REPOSITORY</h1>
+            <h1 className="my-2 mt-4 text-lg font-bold uppercase text-[18px] md:text-[20px]">REPOSITORY</h1>
             <a
               href="https://github.com/ahadazizjaffer2/olympiad25-sportics"
               className="flex overflow-hidden items-center text-sm font-medium bg-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-white shadow hover:bg-black/90 h-9 px-4 py-2 max-w-52 whitespace-pre md:flex group relative w-full justify-center gap-2 rounded-md transition-all duration-300 ease-out hover:ring-2 hover:ring-black hover:ring-offset-2"

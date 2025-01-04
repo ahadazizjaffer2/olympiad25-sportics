@@ -44,16 +44,19 @@ export default function AboutCodersCup() {
     }, []);
 
     return (
-        <div className="text-[#00A8FF] bg-[#fff] py-12 mb-28" ref={sectionRef}>
-            <h1 className="integral-cf text-center text-3xl md:text-7xl font-bold py-6 px-2 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text">
-                ABOUT <span className="integral-cf text-[#00A8FF]">OLYMPIAD</span>
+        <div className="text-[#00A8FF] bg-[#fff] py-12 mb-16" ref={sectionRef}>
+            <h1 className="integral-cf text-center text-5xl md:text-7xl font-bold py-6 px-2 bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text">
+                WHAT IS <span className="integral-cf text-[#00A8FF]">FAST OLYMPIAD?</span>
             </h1>
 
-            <div className="sporting-grotesque flex flex-col md:flex-row gap-8 justify-center items-center px-4">
+            <div className="sporting-grotesque flex flex-col md:flex-row gap-8 justify-center items-center px-4 py-8">
                 <p className="text-gray-700 w-full md:w-6/12 text-center md:text-left">
-                    Sportics Olympiad is an annual coding competition celebrating technology and problem-solving. It brings together top programmers from FAST University to compete in fast-paced, intense coding challenges. Whether you're a beginner or a pro, Olympiad is your platform to sharpen your skills and compete with the best.
-                    <br /><br />
-                    Over the years, the event has grown in scale, attracting talented participants. Coder's Cup not only nurtures technical excellence but also encourages collaboration and teamwork, establishing itself as a prestigious platform for budding coders.
+                FAST Olympiad 2025 is the annual flagship sports event hosted by FAST University, bringing together athletes and enthusiasts from universities, colleges, and local clubs across Karachi. This exciting five-day event, happening from February 3rd to February 7th, 2025, is a dynamic showcase of outdoor sports, indoor games, and e-sports.
+                <br /><br />
+                With a wide range of competitions, participants have the chance to demonstrate their skills, teamwork, and passion for sports. More than just a competition, FAST Olympiad celebrates the spirit of unity, excellence, and the vibrant energy of youth.
+                <br /><br />
+                Whether you're an athlete ready to compete, a gaming enthusiast looking for thrills, or a supporter cheering from the sidelines, FAST Olympiad offers something for everyone. Join us for this unforgettable experience and be part of a community that thrives on passion and sportsmanship.
+
                 </p>
 
                 {/* Animated Logo */}

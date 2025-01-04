@@ -124,7 +124,7 @@ const RegistrationCountdown = () => {
       {/* Display the formatted time remaining */}
       {formatTime(timeRemaining)}
       
-      <p className="text-gray-900 md:text-lg text-center my-6">
+      <p className="text-gray-900 md:text-lg text-center my-6 px-4">
         Registration ends on: {targetDate.toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}
       </p>
     </div>

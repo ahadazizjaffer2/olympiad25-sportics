@@ -233,7 +233,7 @@ export default function Rules() {
         </section>
       </div>
 
-      <div className="text-gray-600 text-center sm:mb-0 md:mb-0 lg:mb-0 mt-24">
+      <div className="text-gray-600 text-center mb-4 sm:mb-4 md:mb-4 lg:mb-0 mt-24">
         <h1 ref={titleRef} className="font-[700] text-[34px] 2xl:text-[70px] xl:text-[66px] lg:text-[55px] md:text-[40px] sm:text-[30px]">
           <span className="integral-cf bg-gradient-to-b from-gray-400 to-gray-600 text-transparent bg-clip-text">
             RULES FOR ALL SPORTS
@@ -242,7 +242,7 @@ export default function Rules() {
       </div>
 
       <div className="flex justify-center items-center max-w-[93%] sm:max-w-[92%] md:max-w-[85%] bg-[#FDFDFD1C] mx-auto rounded-2xl border border-[#FFFFFF]">
-        <div className="container p-6">
+        <div className="container p-2 md:p-6">
           <SportsRules />
         </div>
       </div>

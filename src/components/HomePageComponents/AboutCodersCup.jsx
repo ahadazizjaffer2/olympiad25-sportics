@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Use the Cloudinary URL for the logo
-const logo = "https://res.cloudinary.com/dlriiwcsn/image/upload/v1731254698/Coder_s_Cup_24_Logo_With_Sponsors_qyhl7g.png"
+const logo = "https://i.ibb.co/8K4rZw5/olympiad-logo.png"
 
 gsap.registerPlugin(ScrollTrigger); // Register ScrollTrigger plugin
 
@@ -21,7 +21,7 @@ export default function AboutCodersCup() {
                 scrollTrigger: {
                     trigger: logoRef.current,
                     start: 'top 80%', // Starts animation when 80% of section is visible
-                    end: 'bottom 40%', // Ends when 40% remains
+                    end: 'bottom 20%', // Ends when 40% remains
                     scrub: 1, // Smooth scrubbing animation
                 },
             }
@@ -49,8 +49,8 @@ export default function AboutCodersCup() {
                 WHAT IS <span className="integral-cf text-[#00A8FF]">FAST OLYMPIAD?</span>
             </h1>
 
-            <div className="sporting-grotesque flex flex-col md:flex-row gap-8 justify-center items-center px-4 py-8">
-                <p className="text-gray-700 w-full md:w-6/12 text-center md:text-left">
+            <div className="sporting-grotesque flex flex-col lg:flex-row gap-8 justify-center items-center px-4 py-8">
+                <p className="text-gray-700 w-full lg:w-6/12 text-center md:text-left">
                 FAST Olympiad 2025 is the annual flagship sports event hosted by FAST University, bringing together athletes and enthusiasts from universities, colleges, and local clubs across Karachi. This exciting five-day event, happening from February 3rd to February 7th, 2025, is a dynamic showcase of outdoor sports, indoor games, and e-sports.
                 <br /><br />
                 With a wide range of competitions, participants have the chance to demonstrate their skills, teamwork, and passion for sports. More than just a competition, FAST Olympiad celebrates the spirit of unity, excellence, and the vibrant energy of youth.
@@ -61,7 +61,7 @@ export default function AboutCodersCup() {
 
                 {/* Animated Logo */}
                 <img
-                    className="w-full md:w-4/12"
+                    className="w-full lg:w-4/12"
                     src={logo}
                     alt="Olympiad Logo"
                     ref={logoRef}

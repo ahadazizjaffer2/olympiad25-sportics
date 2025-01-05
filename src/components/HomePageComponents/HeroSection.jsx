@@ -193,9 +193,10 @@ export default function HeroSection() {
 
       <div className="flex flex-col items-center justify-center mt-12 mb-10 relative z-10">
         <img
-          className="w-[200px] sm:w-[300px] md:w-[300px] lg:w-[300px] h-auto mb-6"
+          className="w-[300px] sm:w-[400px] md:w-[400px] lg:w-[400px] h-auto mb-6"
           // src="https://res.cloudinary.com/dlriiwcsn/image/upload/v1731254698/Coder_s_Cup_24_Logo_With_Sponsors_qyhl7g.png"
-          src="sportics2.png"
+          src="https://i.ibb.co/8K4rZw5/olympiad-logo.png"
+          // src="sportics2.png"
           alt="Olympiad Logo"
           ref={logoRef} // Logo animation ref
         />

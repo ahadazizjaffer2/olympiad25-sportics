@@ -7,9 +7,9 @@ const Loader = () => {
   return (
     <div className="h-screen w-screen bg-black flex flex-col items-center justify-center gap-8">
       <img
-        src="https://res.cloudinary.com/dlriiwcsn/image/upload/v1731254698/Coder_s_Cup_24_Logo_With_Sponsors_qyhl7g.png"
+        src="https://i.ibb.co/521ck5W/LOGO-OLYMPIAD-TRANS.png"
         alt="Olympiad Logo"
-        className="h-52 w-auto"
+        className="h-80 md:h120 w-auto"
       />
 
       <Hourglass visible={true}
